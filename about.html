@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+}
+
+.header h1{
+    color:white;
+    margin-top:15px;
+    font-size:35px;
+}
+
+.header p{
+    color:#cbd5e1;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.content{
+    padding:40px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.section h2{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.section p{
+    color:white;
+    line-height:1.8;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#38bdf8;
+    color:white;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:14px;
+}
+
+.social{
+    text-align:center;
+    margin-top:20px;
+}
+
+.social a{
+    text-decoration:none;
+    color:white;
+    margin:0 10px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:#38bdf8;
+}
+
+@media(max-width:768px){
+    .content{
+        padding:25px;
+    }
+
+    .header h1{
+        font-size:28px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
+
+        <h1>Ahsanul Seddiqi Ovi</h1>
+        <p>Web Developer | Programmer | Freelancer</p>
+    </div>
+
+    <div class="content">
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Ahsanul Seddiqi Ovi. I am passionate about web
+                development, programming, and learning new technologies.
+                I enjoy creating modern websites and helping businesses
+                grow their online presence.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">C Programming</span>
+                <span class="skill">Responsive Design</span>
+                <span class="skill">Git & GitHub</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>My Goal</h2>
+            <p>
+                My goal is to become a professional full-stack developer
+                and build innovative digital solutions that make people's
+                lives easier and businesses more successful.
+            </p>
+        </div>
+
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
